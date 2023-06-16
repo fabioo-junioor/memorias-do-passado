@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    height: 100vh;
+    background-color: red;
+
+}
+.tela-inicio{
+    background-color: #f2f2f2;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.tela-inicio h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5rem;
+    margin: 2rem;
+
+}
+.tela-inicio button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    width: 15rem;
+    height: 4rem;
+    margin: 1rem;
+    background-color: #818181;
+    color: white;
+    font-size: 1.2rem;
+
+}
+.tela-inicio button:hover{
+    background-color: #636363;
+    color: white;
+
+}
+.tela-inicio a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.rodape{
+    background-color: #f2f2f280;
+    border-top: solid 1px black;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+.rodape .btn-modal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #818181;
+    color: white;
+    font-weight: bold;
+    font-size: .9rem;
+    margin: 1rem;
+    width: 7%;
+    height: 3rem;
+    border: none;
+
+}
+.rodape .btn-modal:hover{
+    background-color: #636363;
+    color: white;
+
+}
