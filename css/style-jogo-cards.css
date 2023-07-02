@@ -5,55 +5,74 @@
 
 }
 .jogo .card{
-    border: solid 3px #616161;
+    border: solid 2px #3A6073;
     border-radius: 5px;
     margin: 1rem;
     height: 20rem;
     width: 15rem;
 
+    position: relative;
     cursor: pointer;
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .9s;
     
 }
+.jogo .card:active{
+    transform: scale(0.97);
+    transition: transform .2s;
+
+}
 .jogo .card .card-back, .card-front{
     height: 100%;
     width: 100%;
-    border-radius: 5px;
     position: absolute;
     backface-visibility: hidden;
 
 }
 .jogo .card .card-back{
-    background-image: url(/img/grey-background.jpg);
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url(/img/image3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 .jogo .card .card-back h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 8rem;
     color: white;
-
+    filter: drop-shadow(3px 3px 0px black);
+    
 }
 .jogo .card .card-front{
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.2)), url(/img/image3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    background-color: #3A6073;
 
 }
 .jogo .card .card-front h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 1rem;
+    color: white;
+    filter: drop-shadow(2px 2px 0px black);
+    margin-bottom: 1.5rem;
+    
 
 }
 .jogo .card .card-front {
+    transform: rotateY(180deg);
+
+}
+.jogo .card.flip{
     transform: rotateY(180deg);
 
 }
