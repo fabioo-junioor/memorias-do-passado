@@ -1,3 +1,5 @@
+import cartas from './dados.js';
+
 const cards = document.querySelectorAll('.card');
 let hasFlippedCard = false;
 let lockBoard = false;
@@ -39,7 +41,9 @@ function flipCard(){
 function checkForMatch(){
     if(firstCard.dataset.card === secondCard.dataset.card){
         num_pts.textContent = total_pontos += 1;
-        console.log('igual', total_pontos);
+        console.log("virou");
+        checkCod(parseInt(firstCard.dataset.card));
+        disabledCards();
         return;
 
     }
@@ -54,12 +58,38 @@ function unflipCards(){
         secondCard.classList.remove('flip');
         console.log('virou');
 
+        resetBoard();
+
     }, 1500);
     
 }
+function checkCod(codigo){
+    for(var item in cartas){
+        if(cartas[item].codigo == codigo){
+            console.log(cartas[item].pergunta);
+            console.log(cartas[item].descricao);
+            return;
+
+        }
+    }
+}
+function disabledCards(){
+    firstCard.removeEventListener('click', flipCard);
+    secondCard.removeEventListener('click', flipCard);
+
+    resetBoard();
+
+}
+function resetBoard(){
+    hasFlippedCard = false;
+    lockBoard = false;
+    firstCard = null;
+    secondCard = null;
+
+}
 (function shuffle(){
     cards.forEach((card) => {
-        let randomPosition = Math.floor(Math.random() * 3);
+        let randomPosition = Math.floor(Math.random() * 4);
         card.style.order = randomPosition;
 
     })
