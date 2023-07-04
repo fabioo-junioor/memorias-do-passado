@@ -54,6 +54,7 @@ body{
 
 }
 .tela-inicio button:active{
+    background-color: rgb(228, 228, 228) !important;
     color: #3A6073 !important;
 
 }
@@ -68,6 +69,13 @@ body{
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+
+}
+.rodape .modal-body p{
+    font-size: 1rem;
+    color: black;
+    text-align: justify;
+    padding: .5rem;
 
 }
 .rodape .btn-modal{

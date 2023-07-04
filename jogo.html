@@ -59,28 +59,69 @@
             </div>
         </div>
     </section>
-    <!--
+    
     <section class="modals">
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="modalEstats" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">FIM DE JOGO</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        ...
+                        <div>
+                            <h4>Total de pontos:<span class="totalPontos">...</span></h4>
+                        </div>
+                        <div>
+                            <h4>Total de erros:<span class="totalErros">...</span></h4>
+                        </div>
+                        <div>
+                            <a href="index.html"><button type="button" class="btn btn-secondary"
+                                data-bs-dismiss="modal">JOGAR NOVAMENTE</button></a>
+                        </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modalDesc" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">DESCRIÇÃO</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <h4>Pergunta:</h4>
+                            <p class="descPergunta"></p>
+                        </div>
+                        <div>
+                            <h4>Resposta:</h4>
+                            <p class="descResposta"></p>
+                        </div>
+                        <div>
+                            <h4>Descrição:</h4>
+                            <p class="descDescricao"></p>
+                        </div>
+                        <div>
+                            <h4>Referência:</h4>
+                            <p class="descReferencia"></p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    -->
+    
 </body>
 <script src="/js/bootstrap-js/bootstrap.js"></script>
 <script src="/js/jogo.js" type="module"></script>
+<script src="/js/code.jquery.com_jquery-3.7.0.min.js"></script>
 
 </html>
