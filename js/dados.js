@@ -3,15 +3,15 @@ const cartas = [
         "codigo": 1,
         "pergunta": "Independência do Brasil?",
         "resposta": "7 de setembro de 1822",
-        "descricao": "A Independência do Brasil foi o processo histórico de separação entre o então Reino do Brasil e Portugal, que ocorreu no período de 1821 a 1825, colocando em violenta oposição as duas partes.",
-        "referencia": "www"
+        "descricao": "A independência do Brasil aconteceu em 1822, tendo como grande marco o grito da independência que foi realizado por Pedro de Alcântara (D. Pedro I durante o Primeiro Reinado), às margens do Rio Ipiranga, no dia 7 de setembro de 1822. Com a independência do Brasil declarada, o país transformou-se em uma monarquia com a coroação de D. Pedro I.",
+        "referencia": "https://brasilescola.uol.com.br/historiab/independencia-brasil.htm"
     },
     {
         "codigo": 2,
         "pergunta": "Nascimento da República?",
         "resposta": "15 de novembro de 1889",
-        "descricao": "Após a Proclamação da República no Brasil, instituiu-se imediatamente um governo provisório. O governo provisório era chefiado pelo Marechal Deodoro da Fonseca, que deveria dirigir o País até que fosse elaborada uma nova Constituição. No dia 24 de fevereiro de 1891 foi promulgada a segunda Constituição brasileira e a primeira da República. No dia seguinte à promulgação da Constituição, foram eleitos pelo Congresso Nacional, o primeiro presidente e o vice.",
-        "referencia": "www"
+        "descricao": "A História da República Brasileira iniciou-se em 1889 com a Proclamação da República e acompanhou todo o período posterior, até o século XXI. A difusão dos ideais republicanos remonta ao período colonial, como durante a Inconfidência Mineira e a Conjuração Baiana, no final do século XVIII. Apesar dos ideais e das revoltas buscarem a superação da monarquia, apenas no final do século XIX, com o fim do escravismo, as elites agrárias do país aceitaram organizar o Estado brasileiro nos moldes republicanos.",
+        "referencia": "https://brasilescola.uol.com.br/historiab/brasil-republica2.htm"
     }
 ]
 

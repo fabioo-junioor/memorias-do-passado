@@ -84,9 +84,9 @@ body{
     color: #3A6073;
     font-weight: bold;
     font-size: .9rem;
-    margin: 2rem;
-    width: 10rem;
-    height: 3rem;
+    margin: .5rem;
+    height: 100%;
+    width: auto;
     border: none;
     box-shadow: 3px 3px 5px 1px #16222A;
 
