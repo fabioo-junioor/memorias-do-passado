@@ -56,7 +56,7 @@
     
 }
 .jogo .card .card-front{
-    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.3)), url(/img/image3.jpg);
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)), url(/img/image3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     display: flex;

@@ -149,7 +149,7 @@
         
     }
     .jogo .card .card-back h3{
-        font-size: 7rem;
+        font-size: 6rem;
         
     }
     .jogo .card .card-front{
@@ -158,6 +158,7 @@
     }
     .jogo .card .card-front h3{
         margin-bottom: 0;
+        font-size: .8rem;
     
     }
 }
