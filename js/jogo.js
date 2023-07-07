@@ -11,7 +11,7 @@ const num_error = document.querySelector('.number-error');
 let total_pontos = 0;
 let total_erros = 0;
 let pts_fim = 0;
-const total_cartas = 4;
+const total_cartas = 12;
 
 
 function flipCard(){

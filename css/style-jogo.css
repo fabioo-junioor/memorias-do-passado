@@ -103,11 +103,11 @@ body{
     
 }
 .modals #modalEstats .modal-body div h4{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 
 }
 .modals #modalEstats .modal-body div h4 span{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
 
 }
@@ -149,12 +149,12 @@ body{
     
 }
 .modals #modalDesc .modal-body div h4{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
 
 }
 .modals #modalDesc .modal-body div p{
-    font-size: 1rem;
+    font-size: .9rem;
     text-align: justify;
     padding: .1rem;
 

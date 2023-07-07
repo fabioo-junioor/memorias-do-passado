@@ -58,14 +58,12 @@
     .jogo{
         width: 80%;
         height: 100%;
-        justify-content: space-around;
-        align-items: flex-start;
+        grid-template-columns: repeat(3, 1fr);
 
     }
     .jogo .card{
-        height: 15rem;
+        height: 10rem;
         width: 10rem;
-        margin: .2rem;
         
     }
 }
@@ -139,13 +137,12 @@
     .jogo{
         width: 100%;
         height: auto;
-        justify-content: space-around;
 
     }
     .jogo .card{
         height: 8rem;
         width: 8rem;
-        margin: .2rem;
+        margin: .3rem 0;
         
     }
     .jogo .card .card-back h3{

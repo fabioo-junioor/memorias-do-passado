@@ -1,25 +1,25 @@
 .jogo{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     background-color: #f2f2f2;
     width: 80%;
-
+    justify-items: center;
+    align-items: center;
+    
 }
 .jogo .card{
     border: solid 3px black;
     border-radius: 10px;
-    margin: 1rem;
-    height: 15rem;
-    width: 10rem;
-
+    margin: .2rem;
+    height: 18rem;
+    width: 13rem;
+    
     position: relative;
     cursor: pointer;
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .9s;
-
+    
     box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.4);
     
 }
