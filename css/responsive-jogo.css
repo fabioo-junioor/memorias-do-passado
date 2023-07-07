@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1024px) {
     .jogo{
-
+        /**/
     }
 }
 @media only screen and (max-width: 768px) {
@@ -58,13 +58,10 @@
     .jogo{
         width: 80%;
         height: 100%;
+        margin: 0;
+        padding: .5rem;
         grid-template-columns: repeat(3, 1fr);
 
-    }
-    .jogo .card{
-        height: 10rem;
-        width: 10rem;
-        
     }
 }
 @media only screen and (max-width: 480px) {
@@ -135,15 +132,12 @@
     
     }
     .jogo{
+        margin: 0;
+        padding: .3rem;
         width: 100%;
-        height: auto;
+        height: 85%;
+        gap: .3rem;
 
-    }
-    .jogo .card{
-        height: 8rem;
-        width: 8rem;
-        margin: .3rem 0;
-        
     }
     .jogo .card .card-back h3{
         font-size: 6rem;
