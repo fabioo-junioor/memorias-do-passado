@@ -1,5 +1,7 @@
 import cartas from './dados.js';
 
+const btnReiniciar = document.querySelector('#btnReiniciar');
+
 const cards = document.querySelectorAll('.card');
 let hasFlippedCard = false;
 let lockBoard = false;
@@ -57,7 +59,6 @@ function unflipCards(){
     setTimeout(() => {
         firstCard.classList.remove('flip');
         secondCard.classList.remove('flip');
-        console.log('virou');
 
         resetBoard();
 
@@ -67,12 +68,6 @@ function unflipCards(){
 function checkCod(codigo){
     for(var item in cartas){
         if(cartas[item].codigo == codigo){
-            /*
-            console.log(cartas[item].pergunta);
-            console.log(cartas[item].resposta);
-            console.log(cartas[item].descricao);
-            console.log(cartas[item].referencia);
-            */
             const pergunta = document.querySelector(".descPergunta");
             const resposta = document.querySelector(".descResposta");
             const descricao = document.querySelector(".descDescricao");
@@ -91,8 +86,6 @@ function checkCod(codigo){
 }
 function checkFimPartida(){
     if(pts_fim === (total_cartas/2)){
-        //console.log("Fim de jogo ", total_pontos, total_erros);
-
         const pontos = document.querySelector(".totalPontos");
         const erros = document.querySelector(".totalErros");
         pontos.textContent = total_pontos;
@@ -126,5 +119,9 @@ function resetBoard(){
 })()
 cards.forEach((card) => {
     card.addEventListener('click', flipCard);
+
+})
+btnReiniciar.addEventListener('click', () => {
+    window.location.reload(true);
 
 })

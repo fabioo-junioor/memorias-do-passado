@@ -3,7 +3,7 @@
     grid-template-columns: repeat(4, 1fr);
     background-color: #f2f2f2;
     width: 80%;
-    margin: 1rem;
+    padding: 1rem;
     gap: .5rem;
     align-items: stretch;
     
@@ -70,7 +70,7 @@
 .jogo .card .card-front h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: .9rem;
+    font-size: 1rem;
     color: white;
     filter: drop-shadow(2px 2px 3px black);
     margin-bottom: 1.5rem;
